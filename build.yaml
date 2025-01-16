@@ -7,6 +7,3 @@
 #
 board: [ "nice_nano_v2" ]
 shield: [ "lux_ergo" ]
-include:
-  - board: "nice_nano_v2"
-    shield: lux_ergo
