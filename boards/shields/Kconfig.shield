@@ -1,5 +1,5 @@
 # Copyright (c) 2025 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_LUX_ERGO
+config SHIELD_lux_ergo
   def_bool $(shields_list_contains,lux_ergo)
