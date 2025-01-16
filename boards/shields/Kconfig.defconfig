@@ -1,9 +1,9 @@
 # Copyright (c) 2025 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_LUX-ERGO
+if SHIELD_LUX_ERGO
 
 config ZMK_KEYBOARD_NAME
   default "Lux Ergo"
 
-endif # SHIELD_LUX-ERGO
+endif # SHIELD_LUX_ERGO
