@@ -3,7 +3,7 @@ id: lux-ergo
 name: Lux Ergo
 type: shield
 url: luxmech.etsy.com
-requires: [nice!nano]
+requires: [nice_nano_v2]
 features:
   - keys
   - studio

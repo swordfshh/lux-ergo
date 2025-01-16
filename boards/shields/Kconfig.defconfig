@@ -6,6 +6,4 @@ if SHIELD_LUX-ERGO
 config ZMK_KEYBOARD_NAME
   default "Lux Ergo"
 
-if ZMK_DISPLAY
-
 endif # SHIELD_LUX-ERGO
