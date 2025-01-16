@@ -9,4 +9,4 @@ board: [ "lux-ergo" ]
 shield: [ "lux-ergo" ]
 include:
   - board: lux-ergo
----
+    shield: lux-ergo
