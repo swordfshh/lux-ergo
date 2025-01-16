@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <layouts/common/lux-ergo>
+#include <layouts/common/lux_ergo>
 
 / {
     chosen {
@@ -14,7 +14,7 @@
         zmk,physical-layout = &layout_lux-ergo;
     };
 
-    matrix_transform_50_all1u: keymap_transform_0 {
+    default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
         rows = <4>;
@@ -65,6 +65,6 @@
     };
 };
 
-&layout_ortho_5x12_all1u {
-    transform = <&matrix_transform_50_all1u>;
+&layout_lux_ergo {
+    transform = <&default_transform>;
 };
