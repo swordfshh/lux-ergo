@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout0: physical_layout_0 {
+    physical_layout0: layout_lux_ergo {
         compatible = "zmk,physical-layout";
         display-name = "LAYOUT";
 
