@@ -1,0 +1,9 @@
+file_format: "1"
+id: lux-ergo
+name: Lux Ergo
+type: shield
+url: luxmech.etsy.com
+requires: [nice!nano]
+features:
+  - keys
+  - studio
