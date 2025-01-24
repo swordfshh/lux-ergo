@@ -10,9 +10,9 @@
 
 / {
     keymap {
-        compatible = "zmk,keymap";
+            compatible = "zmk,keymap";
 
-        default_layer {
+            default_layer {
             // ------------------------------------------------------------------------------------------
             // |  TAB  |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   |  BSP  |
             // | MO(1) |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |     ENTER     |
@@ -54,7 +54,7 @@
 
 
             bindings = <
-                &kp &bootloader    &kp F1   &kp F2    &kp F3   &kp F4    &kp F5       &kp F6          &kp F7              &kp F8              &kp F9       &kp F0           &kp K_UNDO
+                &trans             &kp F1   &kp F2    &kp F3   &kp F4    &kp F5       &kp F6          &kp F7              &kp F8              &kp F9       &kp F0           &kp K_UNDO
                 &trans             &trans   &kp GRAVE &kp LBRC &kp RBRC  &kp KP_PLUS  &kp PIPE        &kp KP_LPAR         &kp KP_RPAR         &kp COLON    &kp DQT          
                 &trans             &trans   &trans    &trans   &trans    &trans       &trans          &trans              &trans              &trans       &trans           &trans
                 &trans             &trans   &trans    &trans   &trans    &trans       &trans          &trans
