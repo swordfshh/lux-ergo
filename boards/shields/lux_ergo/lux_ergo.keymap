@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <behaviors.dtsi>
 
-#include "lux_ergo-layouts.dtsi"
+#include <lux_ergo-layouts.dtsi>
 
 / {
     keymap {
